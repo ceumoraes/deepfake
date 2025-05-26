@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G1 - O portal de notícias da Globo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="all">
+      <section class="top-bar">
+        <div class="aligner">
+          <div class="external-links">
+            <a href="#">
+              <img src="images/logo-globo-1.svg" alt="globo.com" class="logo-globo-svg" />
+            </a>
+            <ul class="more-links">
+              <li><a href="#">g1</a></li>
+              <li><a href="#">ge</a></li>
+              <li><a href="#">gshow</a></li>
+              <li>
+                <a href="#">vídeos</a>
+                <div class="float-menu">
+                  <ul>
+                    <li><a href="#">globoplay</a></li>
+                    <li><a href="#">globosat play</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="#">o globo</a></li>
+            </ul>
+          </div>
+
+          <ul class="user-links">
+            <li><a href="#">Assina já</a></li>
+            <li>
+              <a href="#">E-mail <i class="fas fa-chevron-down"></i></i></a>
+              <div class="float-menu" style="top: 30px;">
+                <ul>
+                  <li><a href="#">globomail free</a></li>
+                  <li><a href="#">globomail pro</a></li>
+                </ul>
+              </div>
+            </li>
+            <li><a href="#" class="highlight">Entrar <i class="fas fa-chevron-right"></i></a></li>
+          </ul>
+        </div>
+      </section>
+
+      <header class="main-header">
+        <div class="aligner">
+          <section class="menu-btn">
+            <button onclick="mainMenu.show()"><i class="fas fa-bars"></i><span>Menu</span></button>
+          </section>
+
+          <section class="logo">
+            <a href="#"><img src="images/logo-g1-1.svg" alt="G1"></a>
+          </section>
+
+          <section class="search-form">
+            <form action="#">
+              <label for="search-input"><i class="fas fa-search"></i></label>
+              <input type="text" placeholder="Buscar" id="search-input">
+            </form>
+          </section>
+
+          <section class="search-btn">
+            <button><i class="fas fa-search"></i></button>
+          </section>
+        </div>
+      </header>
+
+      <section class="main-container">
+        <section class="news-master">
+          <div class="box box-big">
+            <a href="materia.html">
+              <span class="subject">Polêmica em Creche</span>
+              <span>
+                <span class="title">Mãe se revolta após 'bebê reborn' ser esquecido por funcionários dentro de creche em Barrinha, SP</span>
+                <span class="subtitle">Caso gera debate sobre empatia e realidade nas redes sociais.</span>
+              </span>
+              <span></span>
+            </a>
+          </div>
+
+          <div class="box box-small">
+            <div class="cover-image" style="background-image: url('images/news-2.jpg');"></div>
+            <a href="#">
+              <span class="subject">Tecnologia e Ciência</span>
+              <span class="title">Astronautas chineses retornam à Terra em segurança</span>
+            </a>
+          </div>
+
+          <div class="box box-small">
+            <div class="cover-image" style="background-image: url('images/news-3.jpg');"></div>
+            <a href="#">
+              <span class="subject">Alerta</span>
+              <span class="title">Vulcão que pode causar tsunami no Brasil entra em alerta para erupção</span>
+            </a>
+          </div>
+        </section>
+
+        <section class="news-list">
+          <ul>
+            <li>
+              <div class="subject">Turismo espacial</div>
+              <div class="title"><a href="#">Voo da SpaceX dará uma volta na Terra a cada 90 minutos</a></div>
+              <div class="brief">Missão é a primeira da história a chegar à órbita do planeta sem astronautas profissionais.</div>
+              <div class="image"><a href="#"><img src="images/news-list-3.jpg" alt=""></a></div>
+              <div class="time">Há 6 horas - Em Inovação</div>
+            </li>
+
+            <li>
+              <div class="subject">Campeão</div>
+              <div class="title"><a href="#">Produtores de queijos do Sul de MG comemoram premiação em mundial na França</a></div>
+              <div class="image"><a href="#"><img src="images/news-list-2.jpg" alt=""></a></div>
+              <div class="time">Há 16 minutos - Em Sul de Minas</div>
+            </li>
+
+            <li>
+              <div class="title"><a href="#">CPI ouve hoje diretor-executivo da Prevent Senior</a></div>
+              <div class="related">
+                <ul>
+                  <li><a href="#">Comissão aprova convocação de ex-mulher de Bolsonaro</a></li>
+                </ul>
+              </div>
+              <div class="image"><a href="#"><img src="images/news-list-1.jpg" alt=""></a></div>
+              <div class="time">Há 8 horas - Em CPI da Covid</div>
+            </li>
+
+            
+          </ul>
+        </section>
+      </section>
+
+      <footer class="main-footer">
+        <div class="aligner">
+          <section class="top">
+            <a href="#"><img src="images/logo-g1-1.svg" alt="G1"></a>
+            <a href="#">Últimas notícias</a>
+          </section>
+  
+          <section class="bottom">
+            <p>&copy Copyright 2000-2025 Globo Comunicação e Participações S.A.</p>
+            <ul>
+              <li><a href="#">Princípios editoriais</a></li>
+              <li><a href="#">Política de privacidade</a></li>
+              <li><a href="#">Minha conta</a></li>
+              <li><a href="#">Anuncie conosco</a></li>
+            </ul>
+          </section>
+        </div>
+      </footer>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
